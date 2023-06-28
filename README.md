@@ -31,9 +31,16 @@ AI, Data Modeling, and Data Science and this seemed like a challenge where I cou
 3. Once in the API folder in a terminal, run the command 'npm install' to install all of the packages needed to run the backend server. 
 4. Once the libraries have finished installing, you should then run the command 'npm start' to start the backend development server. From the command terminal, you will recieve two output messages to let you know the backend server is running and that the connection to the database was successful. 
 5. After you recieve these messages, it is time to switch to the FrontEnd/UI Repository. Once in the FrontEnd/UI Repository in a command terminal, navigate to the flix-movie-streaming folder and again run 'npm install' to install all of the required libraries and 'npm start' to start the front end development server.
-6. Once complete your browser should open up a window to the Front End UI running on Port 3000. You will likely need to sign up for an account in order to log in and see all features of the UI. If you would not like to create an account, I have created a test account in the database for anyone to use. The details are below.
+6. Once complete your browser should open up a window to the Front End UI running on Port 3000. Access Tokens for the API are currently hardcoded in. If the access token currently in the repository does not work, I have created a guide on how to get a new token. Read the below instructions to obtain an access token and then return to this guide.
+7. Once you have the new token, replace it in Home.jsx, Featured.jsx, and ListItem.jsx and run front end again.
 
-# Test Account Details: 
-username:"codemonkee"\
-email:"codemonkeeey15@gmail.com"\
-password:1234
+# Get New Access Token
+1. Get the backend server running as explained in the previous guide.
+2. Once the server is running on local host, open up postman.
+3. Once in postman, send a new post request to the endpoint localhost:8800/api/auth/login with the following body:
+{
+    "email" : "codemonkeeey15@gmail.com",
+    "password" : "12345678"
+}
+4. You will then recieve a response from the database with a new access token, copy it.
+
