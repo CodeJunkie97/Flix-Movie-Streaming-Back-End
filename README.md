@@ -1,7 +1,21 @@
-## Flix-Movie-Streaming-Back-End Local Runbook Documentation.
+## Table of Contents
+[1.Full App Description](#full-app-description)
+[2.Current Status](#current-status)
+[3.Still to Come](#still-to-come)
+[4. Runbook Documentation](#steps-to-run-on-localhost)
+
+
+
+# Full App Description
+
+# Current Status
+
+# Still to Come
+
+# Flix-Movie-Streaming-Back-End Local Runbook Documentation.
 [FrontEnd/UI Repository Link] (https://github.com/CodeJunkie97/Flix-Movie-Streaming-Front-End)
 
-#Steps to run on localhost:
+# Steps to run on localhost:
 1. Clone both this backend repository and the linked front end repository above. You will need both to be running simultaneously for the application to work properly. 
 2. After you have both cloned, navigate into the back end server repository and the api folder. 
 3. Once in the API folder in a terminal, run the command 'npm install' to install all of the packages needed to run the backend server. 
