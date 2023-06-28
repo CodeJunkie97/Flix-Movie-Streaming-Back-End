@@ -2,7 +2,7 @@
 [1.Full App Description](#full-app-description)\
 [2.Current Status](#current-status)\
 [3.Still to Come](#still-to-come)\
-[4. Runbook Documentation](#steps-to-run-on-localhost)\
+[4. Runbook Documentation](#steps-to-run-on-localhost)
 
 
 
