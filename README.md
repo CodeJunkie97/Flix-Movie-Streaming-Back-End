@@ -1,8 +1,8 @@
 ## Table of Contents
-[1.Full App Description](#full-app-description)
-[2.Current Status](#current-status)
-[3.Still to Come](#still-to-come)
-[4. Runbook Documentation](#steps-to-run-on-localhost)
+[1.Full App Description](#full-app-description)\
+[2.Current Status](#current-status)\
+[3.Still to Come](#still-to-come)\
+[4. Runbook Documentation](#steps-to-run-on-localhost)\
 
 
 
@@ -24,6 +24,6 @@
 6. Once complete your browser should open up a window to the Front End UI running on Port 3000. You will likely need to sign up for an account in order to log in and see all features of the UI. If you would not like to create an account, I have created a test account in the database for anyone to use. The details are below.
 
 # Test Account Details: 
-username:"codemonkee"
-email:"codemonkeeey15@gmail.com"
+username:"codemonkee"\
+email:"codemonkeeey15@gmail.com"\
 password:1234
